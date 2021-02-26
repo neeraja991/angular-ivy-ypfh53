@@ -2,6 +2,13 @@ import { Component, OnInit } from "@angular/core";
 import { Employees } from "./Employees";
 import { RestService } from "./rest.service";
 
+interface Employee {
+  Name: String;
+  Expertisefield: String;
+  CountryofBirth: String;
+  DOJ: String;
+  id: Number;
+}
 @Component({
   selector: "my-app",
   templateUrl: "./app.component.html",
