@@ -28,6 +28,7 @@ export class AppComponent implements OnInit {
     this.rs.getUsers().subscribe(
       response => {
         this.employees = response;
+        console.log(response+"employess");
       },
       error => console.log(error)
     );

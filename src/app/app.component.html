@@ -4,10 +4,16 @@
 			{{col}}
 		</th>
 	</tr>
-	<tr *ngFor="let employee of employees">
-		<td *ngFor="let col of index">
-			{{employee[col]}}
-		</td>
-	</tr>
+<tr *ngFor="let employee of employees">
+				<th>{{employee.id}}</th>
+				<th>
+					{{employee.Name}}</th>
+				<th>
+					{{employee.Expertisefield}}</th>
+				<th>
+					{{employee.CountryofBirth}}</th>
+				<th>
+					{{employee.DOJ}}</th>
+			</tr>
 </table>
 
