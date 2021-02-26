@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { employees } from "./employees";
+import { Employees } from "./employees";
 import { RestService } from "./rest.service";
 
 @Component({
@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   columns = ["Name", "Expertisefield", "CountryofBirth", "DOJ", "id"];
   index = ["Name", "Expertisefield", "CountryofBirth", "DOJ", "id"];
 
-  employees: employees[] = [];
+  employees: Employees[] = [];
 
   ngOnInit(): void {
     this.rs.getUsers().subscribe(
