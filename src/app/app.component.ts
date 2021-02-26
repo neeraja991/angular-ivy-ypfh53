@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import { Employees } from "./Employees";
+//import { Employees } from "./Employees";
 import { RestService } from "./rest.service";
 
-interface Employee {
+interface Employees {
   Name: String;
   Expertisefield: String;
   CountryofBirth: String;
