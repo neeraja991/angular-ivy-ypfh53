@@ -20,6 +20,6 @@ export class RestService {
     "https://run.mocky.io/v3/8ce14a10-3912-453e-b642-1b7b24e3f1cd";
   getUsers() {
     console.log(this.url);
-    return this.http.get<Employees[]>(this.url);
+    console.log(this.http.get<Employees[]>(this.url));
   }
 }
