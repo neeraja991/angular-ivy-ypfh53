@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
 
   employees: Employees[] = [];
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.rs.getUsers().subscribe(
       response => {
         this.employees = response;
