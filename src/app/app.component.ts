@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Employees } from "./employees";
+import { Employees } from "./Employees";
 import { RestService } from "./rest.service";
 
 @Component({
