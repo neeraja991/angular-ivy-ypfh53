@@ -1,4 +1,4 @@
-export class employees {
+export class Employees {
   Name: String;
   Expertisefield: String;
   CountryofBirth: String;
